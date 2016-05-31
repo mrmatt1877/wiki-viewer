@@ -1,0 +1,97 @@
+body {
+  background-color: grey;
+  font-family: 'VT323', serif;
+}
+
+.container-fluid {
+  background-color: grey;
+  padding: 5%;
+}
+
+
+/*page title*/
+
+h1 {
+  padding-bottom: 2%;
+  color: #ff9900;
+}
+
+h3 {
+  font-family: 'Alegreya', serif;
+}
+
+a {
+  font-family: 'VT323', serif;
+}
+
+
+/* search bar code found online*/
+
+input {
+  outline: none;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+  background: #ededed url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+  border: solid 1px #ff9900;
+  padding: 9px 10px 9px 32px;
+  width: 55px;
+  border-radius: 10em;
+  transition: all .3s;
+}
+
+input[type=search]:focus {
+  width: 130px;
+  color: #ff9900;
+  background-color: #336699;
+  border-color: #ff9900;
+  -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+  -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+  box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+}
+
+
+/*button for random article*/
+
+.random-button {
+  padding-top: 2%;
+}
+
+.btn {
+  color: #ff9900;
+  background-color: #336699;
+}
+
+
+/*results layout*/
+
+.well {
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+.results {
+  margin-top: 5%;
+}
+
+#articles {
+  color: black;
+  border-top: none;
+  border-bottom: none;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #ff9900;
+  font-size: 15px
+}
+
+#articles h3 {
+  font-size: 25px
+}
+
+#articles:hover {
+  border-width: 10px;
+}
